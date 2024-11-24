@@ -19,7 +19,7 @@ const NavbarComponent = () => {
                     className="d-inline-block align-top"
                     alt=" logo"
                 />{' '}
-                <span>Cavite State University</span>
+                <span>Cavite State University Carmona</span>
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

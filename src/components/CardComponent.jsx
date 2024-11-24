@@ -10,7 +10,8 @@ const CardComponent = () => {
         <Card.Text className='display-6'>
             Truth, Excellence and Service
         </Card.Text>
-        <Button variant="success" size="lg">Learn More</Button>
+        {/* BUTTON FOR REDIRECTION TO THE OFFICIAL WEBSITE */}
+        <Button variant="success" href='https://cvsu.edu.ph/' target="_blank" size="lg">Learn More</Button>
       </Card.Body>
     </Card>
   )
