@@ -11,15 +11,15 @@ const NavbarComponent = () => {
         <Container fluid>
 
             {/* LOGO AND NAVBAR BRAND */}
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="#home" className="d-flex align-items-center gap-2">
                 <img
                     src={Logo}
-                    width="30"
-                    height="30"
+                    width="45"
+                    height="35"
                     className="d-inline-block align-top"
                     alt=" logo"
                 />{' '}
-                Cavite State University
+                <span>Cavite State University</span>
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
