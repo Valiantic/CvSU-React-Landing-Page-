@@ -7,6 +7,7 @@ import Card from './components/CardComponent'
 import AboutImg from './components/AboutImg'
 import ContactCard from './components/ContactCard'
 import { Container, Row, Col } from 'react-bootstrap'
+import FooterComponent from './components/FooterComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,7 +40,7 @@ function App() {
           </Col>
         </Row>
       </Container>
-
+    <FooterComponent/>
     </>
   )
 }
